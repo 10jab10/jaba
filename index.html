@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Heart and Turtle</title>
+  <style>
+    /* Make the background pink */
+    body {
+      background-color: pink;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Style for the heart */
+    .heart-container {
+      font-size: 150px;
+      color: red;
+      text-align: center;
+    }
+
+    /* Style for the airplane */
+    .airplane {
+      position: absolute;
+      font-size: 50px;
+      left: 0;
+      top: 50%;
+      animation: fly 5s linear infinite;
+    }
+
+    /* Animation for the airplane */
+    @keyframes fly {
+      0% {
+        left: 0;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Airplane -->
+  <div class="airplane">✈️</div>
+
+  <!-- Heart with turtle and text inside -->
+  <div class="heart-container">
+    &hearts;
+    <div>🐢</div>
+    <div>I'LL BE HOME SOON COZY. I LOVE YOU</div>
+  </div>
+
+</body>
+</html>
